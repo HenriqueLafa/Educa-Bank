@@ -1,89 +1,85 @@
-*{
-margin: 0;
-list-style: none;
+* {
+    margin: 0;
+    list-style: none;
+    padding: 0;
 
 
 }
-
-
 
 header {
-background-color: rgb(107, 178, 226);
-padding: 10vh;
-
+   display: flex;
+   justify-content: end;
+   padding: 40px;
+   background-color: rgb(26, 144, 223);
 }
 
-.listmenu ul {
-display:flex;
-justify-content: center;
-gap: 80px;
-margin-left: 40em;
 
-
-
-
-
-
+ul {
+    display: flex;
+    gap: 15px;
 }
-.listmenu {
-gap: 80px;
 
-
+li a {
+    text-decoration: none;
+    color: white;
 }
+
+
 .section-01 {
-display: flex;
-justify-content: center;
-flex-direction: column;
-padding: 200px;
-background-color:rgb(160, 202, 229) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 200px;
+    background-color: rgb(160, 202, 229);
 
 }
 
 .section-01 h1 {
 
     font-size: 50px;
-    
+
 
 
 }
 
 .section-01 p {
-font-size: 30px;
+    font-size: 30px;
 
 
 }
 
 .section-01 button {
-width: 200px;
-height: 40px;
-border-radius: 50px;
-margin-top: 10px;
-color: rgb(7, 206, 90);
-font-size: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 10px;
+    color: rgb(7, 206, 90);
+    font-size: 20px;
 }
 
 .section-01 button:hover {
     transition: 0.7s;
     color: rgb(5, 51, 24);
-    
+
 
 }
 
 .section-02 {
-display: flex;
-justify-content: center;
-align-content: center;
-gap: 20px;
-padding: 300px;
-margin-bottom: 50px;
-background-color: rgb(198, 198, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+ 
+  
+    background-color: rgb(198, 198, 243);
 
 
 }
 
 .div-01 p {
-font-size: 30px;
-margin-bottom: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
 
 }
 
@@ -100,8 +96,6 @@ margin-bottom: 30px;
 }
 
 .list-02 img {
-width: 280px;
-margin-bottom:60px
-
-
+    width: 280px;
+    margin-bottom: 60px
 }
