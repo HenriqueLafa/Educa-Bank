@@ -10,7 +10,7 @@ header {
    display: flex;
    justify-content: end;
    padding: 40px;
-   background-color: rgb(26, 144, 223);
+   background:rgb(78, 135, 168);
 }
 
 
@@ -21,7 +21,7 @@ ul {
 
 li a {
     text-decoration: none;
-    color: white;
+    color: var(--font-color);;
 }
 
 
@@ -30,13 +30,14 @@ li a {
     justify-content: center;
     flex-direction: column;
     padding: 200px;
-    background-color: rgb(160, 202, 229);
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%); 
 
 }
 
 .section-01 h1 {
 
     font-size: 50px;
+    color: rgba(0, 0, 0, 0.712);;
 
 
 
@@ -59,8 +60,8 @@ li a {
 
 .section-01 button:hover {
     transition: 0.7s;
-    background-color: rgb(5, 51, 24);
-    color: white;
+
+    color:rgb(81, 81, 228);
 
 
 }
@@ -73,10 +74,11 @@ li a {
     padding: 50px;
  
   
-    background-color: rgb(198, 198, 243);
+    background: rgb(226, 233, 233);
 
 
 }
+
 
 .section-02 button:hover {
     transition: 0.7s;
@@ -114,7 +116,7 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 padding: 10em;
-background-color: rgb(198, 198, 243);
+background: rgb(226, 233, 233);;
 
 
 
@@ -162,6 +164,61 @@ font-size: 20px;
     transition: 0.7s;
     background-color:rgb(13, 13, 192) ;
     color: white;
+
+
+}
+
+
+.linha {
+width: 80%;
+border: 0.2px solid black;
+margin-top: 40px;
+margin-left: 90px;
+
+}
+
+.section-03 img {
+width: 50vw;
+margin-left: 10em;
+
+
+}
+
+.section-04 {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg);
+
+
+
+}
+
+.Div-04 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20em;
+    gap: 100px;
+    
+
+
+}
+.section-04 img {
+width: 25vw;
+
+
+}
+
+.Div-05 {
+
+flex-direction: column;
+
+
+}
+
+.section-04 p {
+margin-top: 30px;
 
 
 }
