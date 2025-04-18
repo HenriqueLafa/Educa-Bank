@@ -242,3 +242,43 @@ font-size: 30px;
 
 
 }
+
+footer {
+background-color: rgb(29, 28, 28);
+padding: 60px;
+text-align: center;
+color: white;
+
+
+
+
+}
+
+footer img {
+
+width: 30vh;
+margin-top: -5rem; 
+
+
+}
+
+footer div {
+display: flex;
+justify-content: space-between;
+padding: 40px;
+
+
+}
+
+
+footer a {
+color: white;
+
+
+}
+
+footer div p {
+
+color: gray;
+
+}
