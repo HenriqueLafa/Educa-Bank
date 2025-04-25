@@ -1,0 +1,51 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+
+}
+
+header {
+padding: 2rem 1rem; /*preenchimento superior e inferior com (2rem), preenchimento laterais esquerda e direita */
+background-color: aquamarine;
+
+
+
+}
+
+.container {
+padding: 5rem 2rem;
+background-color: blueviolet;
+display: flex;
+justify-content: center;
+flex-wrap: wrap; /*Fara com que as caixas possam ser quebradas se necessario (quando não houver espaço)*/
+align-content: center; /*propriedade que sera usada para alinhar as caixas quando quebradas*/
+/*align-content: center;*/
+
+}
+
+.container div {
+border: 2px solid orange; /*(2px = espessura da borda)*/
+/*solid = tipo da borda e orange = cor da borda*/
+width: 20rem; /*Largura da caixa*/
+height: 20rem; /*Altura da caixa*/
+margin: 10px; /*Espaçamento de todos os lados externos da caixa usando margin*/
+min-width: 300px; /*Limitando o tamanho mínimo que a caixa terá (ela */
+
+
+}
+
+@media screen (max-width:360px)  {
+    
+.container {
+
+
+
+
+}
+
+
+}
