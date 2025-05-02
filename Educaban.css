@@ -189,8 +189,8 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 
-background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg);
-background-image: url(img\ cofre\ fundo.jpg);
+background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(Imagens/img\ cofre\ fundo.jpg);
+background-image: url(Imagens/img\ cofre\ fundo.jpg);
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
