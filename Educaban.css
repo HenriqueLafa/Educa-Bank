@@ -290,3 +290,129 @@ color: gray;
    --primary-color: tomato;
     
     }
+
+
+
+    @media (max-width: 768px) {
+
+        header {
+          justify-content: center;
+          padding: 20px;
+        }
+      
+        ul {
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+        }
+      
+        .section-01 {
+          padding: 100px 20px;
+          text-align: center;
+        }
+      
+        .section-01 button {
+            margin: 10px auto; /* centraliza horizontalmente */
+            width: 200px;
+            height: 60px;
+            border-radius: 50px;
+            color: rgb(7, 206, 90);
+            font-size: 20px;
+            display: block; /* garante que se comporte como bloco */
+          }
+        .section-01 h1 {
+          font-size: 36px;
+        }
+      
+        .section-01 p {
+          font-size: 20px;
+        }
+      
+    
+
+        .section-02 {
+          flex-direction: column;
+          padding: 40px 20px;
+          text-align: center;
+        }
+      
+        .div-01 p {
+          font-size: 22px;
+        }
+      
+        .list-02 img {
+          width: 80%;
+        }
+      
+        .section-03 {
+          padding: 80px 20px;
+          text-align: center;
+        }
+      
+        .section-03 h1 {
+          font-size: 36px;
+        }
+      
+        .section-03 p {
+          font-size: 18px;
+        }
+      
+        .section-03 img {
+          width: 100%;
+          margin: 20px 0;
+        }
+      
+        .linha {
+          margin: 40px auto;
+        }
+      
+        .section-04 {
+          flex-direction: column;
+          padding: 60px 20px;
+          text-align: center;
+        }
+      
+        .Div-04 {
+          flex-direction: column;
+          padding: 0;
+          gap: 3em;
+        }
+      
+        .section-04 img {
+          width: 60%;
+        }
+      
+        .Div-05 h2 {
+          font-size: 24px;
+        }
+      
+        .Div-05 p {
+          font-size: 16px;
+        }
+      
+        footer {
+          padding: 40px 20px;
+        }
+      
+        footer img {
+          width: 50%;
+          margin-top: 0;
+        }
+      
+        footer div {
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+          padding: 20px 0;
+          text-align: center;
+        }
+      
+        footer p {
+          font-size: 14px;
+        }
+      
+        footer a {
+          font-size: 14px;
+        }
+      
+      }
