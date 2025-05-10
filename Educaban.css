@@ -156,6 +156,7 @@ font-size: 20px;
    font-size: 20px;
     color: rgb(13, 13, 192);
     padding: 10px;
+   
 
 
 }
@@ -356,12 +357,17 @@ color: gray;
         .section-03 p {
           font-size: 18px;
         }
-      
+      .section-03 button {
+margin-left: 3.5em;
+
+
+      }
         .section-03 img {
           width: 100%;
           margin: 20px 0;
         }
       
+   
         .linha {
           margin: 40px auto;
         }
